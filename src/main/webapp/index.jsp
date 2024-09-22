@@ -29,18 +29,18 @@
         out.print( "<th rowspan=\"3\" colspan=\"1\" align = \"center\" >" +date.toString()+"</th>");
         %>
         <th style="background-color: #008ae6;" rowspan="3" colspan="1">App </th>
-        <th rowspan="1" colspan="4">Set1 </th>
-        <th rowspan="1" colspan="4">Set2 </th>
-        <th rowspan="1" colspan="4">Set3 </th>
+        <th rowspan="1" colspan="4" name="fname">Set1 </th>
+        <th rowspan="1" colspan="4" name="fname">Set2 </th>
+        <th rowspan="1" colspan="4"name="fname">Set3 </th>
 
     </tr>
     <tr>
-        <td rowspan="1" colspan="2">Env1</td>
-        <td rowspan="1" colspan="2">Env2</td>
-        <td rowspan="1" colspan="2">Env3</td>
-        <td rowspan="1" colspan="2">Env4</td>
-        <td rowspan="1" colspan="2">Env5</td>
-        <td rowspan="1" colspan="2">Env6</td>
+        <td rowspan="1" colspan="2"name="fname">Env1</td>
+        <td rowspan="1" colspan="2"name="fname">Env2</td>
+        <td rowspan="1" colspan="2"name="fname">Env3</td>
+        <td rowspan="1" colspan="2"name="fname">Env4</td>
+        <td rowspan="1" colspan="2"name="fname">Env5</td>
+        <td rowspan="1" colspan="2"name="fname">Env6</td>
 
 
     </tr>

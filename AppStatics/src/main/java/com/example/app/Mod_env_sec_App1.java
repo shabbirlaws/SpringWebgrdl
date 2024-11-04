@@ -1,14 +1,11 @@
-package com.example.apps;
+package com.example.app;
 
-public class Mod_env_sec_App {
+public class Mod_env_sec_App1 {
     private String glblurl;
-        private String url;
+    private String url;
     private int row;
     private int column;
     private String color;
-    private String message;
-    private int statusCode;
-    private String resource;
 
 
     // Getter Methods
@@ -32,18 +29,6 @@ public class Mod_env_sec_App {
     public String getColor() {
         return color;
     }
-    public int getStatusCode() {
-        return statusCode;
-    }
-
-    public String getResource() {
-        return resource;
-    }
-    public String getMessage() {
-        return message;
-    }
-
-
 
     // Setter Methods
 
@@ -66,17 +51,4 @@ public class Mod_env_sec_App {
     public void setColor(String color) {
         this.color = color;
     }
-    public void setStatusCode(int statusCode) {
-        this.statusCode=statusCode;
-    }
-
-    public void setResource(String resource) {
-        this.resource=resource;
-    }
-
-    public void setMessage(String message) {
-        this.message=message;
-    }
-
-
 }

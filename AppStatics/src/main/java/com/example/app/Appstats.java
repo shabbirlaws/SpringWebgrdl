@@ -1,6 +1,6 @@
-package com.example.apps;
+package com.example.app;
 
-public class Codebeautify {
+public class Appstats {
     Mod_env_sec_App Mod_env_sec_AppObject;
     Mod_env_sec_App1 Mod_env_sec_App1Object;
 

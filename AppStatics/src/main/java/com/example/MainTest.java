@@ -37,7 +37,6 @@ public class MainTest {
         for (int i = 0; i < topics.size(); i++) {
             size = size+topics.get(i).getTopicSize();
            // System.out.println("Tpoic size::::=" + size);
-
         }
         System.out.println("Total Tpoic size::::=" + size);
 

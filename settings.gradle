@@ -1,4 +1,8 @@
 rootProject.name = 'SpringWeb'
 include 'src:main:webapp'
 findProject(':src:main:webapp')?.name = 'webapp'
+include 'src:jsonimple'
+findProject(':src:jsonimple')?.name = 'jsonimple'
+include 'src:jsonimple:src:main:resources'
+findProject(':src:jsonimple:src:main:resources')?.name = 'resources'
 
